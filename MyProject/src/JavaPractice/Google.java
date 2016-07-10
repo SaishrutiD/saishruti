@@ -11,7 +11,7 @@ public class Google
 	{
 		driver = new FirefoxDriver();
 		driver.get("https://www.google.co.in");
-		driver.findElement(By.name("q")).sendKeys("Java");
+		driver.findElement(By.name("q")).sendKeys("helloworld");
 		System.out.println(driver.findElement(By.name("q")).getAttribute("value"));
 		
 	}
